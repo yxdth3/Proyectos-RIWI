@@ -22,7 +22,7 @@ de salas de reunión sin solapamientos y con confirmaciones automáticas.
 | Semana 2 | Validaciones y flujo de reserva. | - Validar formato de fecha/hora.<br>- Validar solapamientos. <br>- Automatizar la confirmación de reservas. | 🔲 |  |
 | Semana 3 | Menú interactivo y funciones. | - Crear menú con ciclos (while).<br>- Usar funciones para modificar el flujo. | 🔲 |  |
 | Semana 4 | Exportar, revisar y entregar. | - Implementar exportación a CSV.<br>- Probar todos los flujos<br>- Documentar | 🔲 |  |
-
+<br>
 ---
 
 ## ✅ Leyenda de estado
