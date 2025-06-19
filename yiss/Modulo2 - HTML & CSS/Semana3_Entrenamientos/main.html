@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+    background: grey;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .name{
+        flex: 1 0 140px; /*flex-grow: 1 (puede crecer)
+                        flex-shrink: 0 (no se encoje)
+                        flex-basis: 140px (tamaño base preferido)*/
+        /*margin: 1px 1px 1px 1px;
+                        margin-top: 1px 
+                        margin-left: 1px
+                        margin-rigth: 1px
+                        margin-button: 1px*/
+    }
+    .lastname{
+        flex: 1 0 120px; /*flex-grow: 1 (puede crecer)
+                        flex-shrink: 0 (no se encoje)
+                        flex-basis: 120px (tamaño base preferido)*/
+    }
+    button{
+        flex: 1 0 60px;
+    }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <input type="text" class="name" placeholder="userName">
+        <input type="text" class="lastname" placeholder="userLastname">
+        <button type="button">Submit</button>
+    </div>
+</body>
+</html>

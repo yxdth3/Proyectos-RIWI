@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yiss</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="font-design">Portfolio</h1>
+            <nav class="content">
+                <ul>
+                    <li class="item-menu"><a href="#about-me"><h3>Presentation</h3></a></li>
+                    <li class="item-menu"><a href="#proyects"><h3>Projects</h3></a></li>
+                    <li class="item-menu"><a href="#contact"><h3>Contact</h3></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="group-picture">
+            <h6>.</h6>
+            <figure >
+                <div>
+                    <picture id="box-picture-group">
+                        <img src="./assets/img/cap-group.jpeg" width="500" height="350" alt="Esta imagen representa al Clan Desertores" title="Clan desertores (Faltó Nando)"> 
+                    </picture> 
+                </div>
+                    <figcaption>
+                        <cite>Photograph taken by Yiseth Gutiérrez</cite>
+                    </figcaption>
+            </figure>
+         </section>
+         <section id="about-me">
+            <h2 class="font-design">About me</h2>
+            <p> Hiii everyone, my name is Yiseth Gutiérrez. But, I like to be called yiss</p>
+            <p> I am a software programming technician. I completed my internship at Inchcape DDC, a car sales and distribution company.
+                 Here I was a data analyst, and I learned to tag events on web pages, to document them, to monitor said pages and also to graphically represent (using dashboards such as Looker Studio, Power BI, and others) the interactions of each user on the pages.</p>
+            <p> I'm currently studying at SENA, continuing my training program (software development and programming technology) 
+                for a professional career. I'm also training at Riwi to find work and improve my skills in the near future.</p>
+        </section>
+        <section>
+            <h2 class="font-design">Habilities</h2>
+            <div>
+                <table>
+                    <tr>
+                        <th>Power BI (Dax)</th>
+                        <th>Google Analytics 4</th>
+                        <th>Looker Studio</th>
+                        <th>Google Tag Manager</th>
+                    </tr>
+                    <tr>
+                        <td>Microsoft data analysis and visualization service that helps businesses make informed decisions based on the information they generate.</td>
+                        <td>Analytics service that allows you to measure traffic and interaction on your websites and applications</td>
+                        <td>A Google tool that allows you to analyze and visualize data intuitively, creating customizable and easy-to-share reports and dashboards.</td>
+                        <td>A tool that allows users to quickly and easily manage and update measurement tags and code snippets on websites and mobile apps, without having to touch the site's code.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <h2 class="font-design">Projects</h2>
+        <section id="projects-mention">
+            <div class="block-flex">
+                <article> 
+                    <div>
+                        <h3 class="font-design">Proyect 1: Inventory system</h3>
+                        <ul>
+                            <li>Python program that allows you to efficiently manage a store's product inventory by applying functions with parameters, lambda functions, and data structures such as lists, tuples, and dictionaries.</li>
+                        </ul>
+                    </div>
+                    <figure> 
+                        <div>
+                            <picture class="box-picture-examples">
+                                <img src="./assets/img/cap-inventario.png" width="400" height="200" alt="Esta imagen muestra el proyecto explicado arriba" title="Muestra del proyecto"> 
+                            </picture> 
+                        </div>
+                    </figure>
+                </article> 
+            </div> 
+            <div class="block-flex">
+                <article>
+                    <h3 class="font-design">Proyect 2: Billing system</h3>
+                    <ul>
+                        <li>The program interacts with the user through the console, requesting four essential pieces of information: the product name, the unit price, the quantity of products purchased, and the discount percentage to be applied. If no discount is applied, this value may be zero.</li>
+                    </ul>
+                    <figure>
+                        <div>
+                            <picture class="box-picture-examples">
+                                <img src="./assets/img/cap-facturacion.png" width="300" height="200" alt="Esta imagen muestra el proyecto explicado arriba" title="Muestra del proyecto"> 
+                            </picture> 
+                        </div>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <table class="box-table" >
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Tecnologies Used</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>Skudon</td>
+                        <td>Power BI, Dax</td>
+                        <td><a href="https://github.com/yxdth3/MiniProyecto_Inchcape">Repositorio SKUDON GitHub</a></td>
+                    </tr>
+                    <tr>
+                        <td>Exportaciones e importaciones mendiales</td>
+                        <td>Power BI, Pyton, Dax</td>
+                        <td><a href="https://github.com/yxdth3/ProyectoExportacionesImportacionesMundiales">Repositorio expo-impo GitHub</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sistema de validación</td>
+                        <td>Python</td>
+                        <td><a href="#">Visual Studio Code</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2 class="font-design">Contact form</h2>
+            <div class="box-form">
+                <form>
+                    <div class="section-inputs">
+                        <label for="userName">Name: </label>
+                        <input type="text" name="userName" id="userName" class="input-form" required placeholder="Enter your first name">
+                    </div>
+                    <div class="section-inputs">
+                        <label for="userEmail">Email: </label>
+                        <input type="text" name="userEmail" id="userEmail" class="input-form" placeholder="Enter your Email">
+                    </div>
+                    <div class="section-inputs">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="10" rows="4" placeholder="Enter your message" ></textarea>
+                    </div>
+                    <input id="send" type="submit" value="Enviar formulario">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

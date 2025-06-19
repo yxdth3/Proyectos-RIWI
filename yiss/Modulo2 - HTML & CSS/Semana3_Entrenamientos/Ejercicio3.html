@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 100px 200px;
+        }
+
+        header {
+            background-color: rgb(59, 56, 59);
+            height: 120px;
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+        }
+
+        header h1 {
+            margin: 20px 0px;
+            border-bottom: 4px solid;
+            padding-right: 30px;
+        }
+        main {
+            display: block;
+            height: 650px;
+            background-color: rgb(32, 56, 100)
+        }
+        section#profile div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section#profile figure {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(47, 85, 150);
+            border-radius: 300px;
+            border: 5px solid white;
+        }
+        .left-section{
+            display: flex;
+            padding-left: 15%;
+            margin-top: 4%;
+        }
+        section#profile figure img{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 150px;
+            margin-top: 17px;
+            border: 8px solid rgb(146, 171, 219);
+        }
+        #profile-description{
+            display: flex;
+            padding-right: 29%;
+        }
+        section#profile{
+            color: white;
+            width: 400px;
+            /* border: 4px solid; */
+            line-height: 1.7;
+            font-size:17px ;
+        }
+        section#profile #picture{
+            display: flex;
+            justify-content: center;
+
+        }
+        section#profile li.item-description{
+            display: flex;
+            justify-content: space-between;
+        }
+        section#profile li.item-description span{
+            width: 50%;
+            text-overflow: ellipsis;
+            text-wrap-mode: nowrap;
+        }
+        /* Aqui empieza la seccion de la derecha*/
+        h2{
+            display: flex;
+            margin-left: 80%;
+        }
+        section#text{
+            color: white;
+            /* border: 4px solid; */
+            display: flex;
+            margin-left: 20%;
+            margin-right: 5%;
+            margin-top: 10%;
+            height: 20%;
+        }
+        div.right-section{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        /* Aqui termina la secciÃ³n de la derecha*/
+        p{
+            font-size: 18px;
+            font-style: italic;
+            color: white;
+        }
+        /* Aqui empieza el footer*/
+        .end{
+            text-align: center;
+            display: flex;
+            background:repeating-linear-gradient(to right,black 0px, black 2px, white 2px, white 4px);
+        }
+        cite{
+            display: flex;
+            padding-top: 15px;
+            text-align: center;
+            padding-left: 43%;
+            color: white;
+        }
+        /* Aqui termina el footer*/
+        .total-width-portfolio{
+            width: 100%;
+            margin: 9px;
+        }
+    </style>
+</head>
+<body>
+    <main class="total-width-portfolio">
+
+        <header>
+            <h1>Yiseth Gutiérrez</h1>
+        </header>
+
+        <div class="left-section">
+            <section id="profile">
+                <div>
+                    <figure>
+                            <img src="./assests/image.png" alt="Foto de perfil" width="300">
+                    </figure>
+                </div>
+                <div id="profile-description">
+                    <ul>
+                        <li class="item-description">
+                            <span>Date of Birth   :</span>
+                            <span>03 de Septiembre</span>
+                        </li>
+                        <li class="item-description">
+                            <span>Address   :</span>
+                            <span>Avenida Cajamares 165</span>
+                        </li>
+                        <li class="item-description">
+                            <span>Phone :</span>
+                            <span>3206781487</span>
+                        </li>
+                        <li class="item-description">
+                            <span>Email :</span>
+                            <span>gutierrezyiseth3@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                
+            </section>
+            <section id="text">
+                <div class="right-section">
+                    <div class="box-item">
+                        <div id="first-text" class="description-text">
+                            <h2>Text Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad quaerat, quidem consectetur voluptatem hic accusantium ut consequuntur iure ullam reprehenderit similique numquam quisquam veritatis enim. Maxime voluptate ratione rerum iure.</p>
+                        </div>
+                        <div id="second-text">
+                            <h2>Text Here</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quasi totam minima voluptas porro fugiat maxime ab aliquid aliquam, nisi recusandae fugit quaerat iure enim consequatur ad sapiente earum molestias!</p>
+                        </div>
+                        </div>
+                </div>
+        </section>
+    </main>
+    <footer class="total-width-portfolio">
+        <div class="end">
+            <cite>© Creado en Riwi Manglar, por Yiss 🙂 2025</cite>
+        </div>
+    </footer>
+</body>
+</html>

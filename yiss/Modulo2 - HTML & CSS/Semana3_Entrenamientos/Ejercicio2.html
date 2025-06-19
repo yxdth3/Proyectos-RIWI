@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test form</title>
+    <style>
+        .section-inputs{
+            margin: 10px 0px;
+            display: flex
+        }
+        .section-inputs input{
+            margin-right: 5px;
+        }
+        section.div.box-form form div.section-inputs{
+            margin: 30px 0px;
+        }
+        i{
+            display: flex;
+        }
+        .hide{
+            display: none;
+        }
+        .myDIV:hover + .hide{
+            display: block;
+            width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Test form</h1>
+    </header>
+    <main>
+        <section>
+            <div class="box-form">
+                <form action="">
+                    <aside class="section-inputs">
+                        <label for="userName">Nombre: </label>
+                        <input type="text" name="userName" id="" required placeholder="Ingrese su primer nombre">
+                        <i>
+                            <div class="myDIV">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15"><path d="M7.5,1.5a6,6,0,1,0,0,12a6,6,0,1,0,0,-12m0,1a5,5,0,1,1,0,10a5,5,0,1,1,0,-10ZM6.625,11l1.75,0l0,-4.5l-1.75,0ZM7.5,3.75a1,1,0,1,0,0,2a1,1,0,1,0,0,-2Z"></path></svg>
+                            </div>
+                            <div class="hide">I am shown when someone hovers over the div above.</div>
+                        </i>
+                    </Aside>
+                    <div class="section-inputs">
+                        <label for="userLastName">Apellido (s): </label>
+                        <input type="text" name="" id="userLastName" placeholder="Ingrese su primer apellido">
+                    </div>
+                    <div class="section-inputs">
+                        <label for="">Perfil: </label>
+                        <textarea name="" id="" cols="10" rows="4" placeholder="Explique su perfil" ></textarea>
+                    </div>
+                    <div>
+                        <label for="userPwd">Contraseña: </label>
+                        <input type="password" name="userPwd" id="userPwd" placeholder="Ingrese su contraseña">
+                    </div>
+                    <div>
+                        <select name="" id="" required>
+                            <option disabled selected>Seleccione una opcion</option>
+                            <option value="+57">Colombia</option>
+                            <option value="+1">USA</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="userPhone">Teléfono</label>
+                        <input type="tel" name="userPhone" id="userPhone" placeholder="Ingrese su número de teléfono">
+                    </div>
+                    <div>
+                        <input type="time" name="s" id="">
+                        <input type="file" name="s" id="">
+                        <input type="range" name="s" id="">
+                    </div>
+                    <div>
+                        <input type="radio" name="s" id="">
+                        <input type="radio" name="s" id="">
+                        <input type="radio" name="s" id="">
+                        <input type="radio" name="s" id="">
+                    </div>
+                    <input type="submit" value="Enviar formulario">
+                </form>
+            </div>
+        </section>
+        <section>
+            <form action="">
+                <div class="section-inputs">
+                        <label for="">Perfil:</label>
+                        <textarea name="" id="" cols="10" rows="4"></textarea>
+                    </div>
+                     <div class="section-inputs">
+                        <label for="">Perfil:</label>
+                        <textarea name="" id="" cols="10" rows="4"></textarea>
+                    </div>
+            </form>
+        </section>
+
+        <section>
+            <div class="box-table">
+                <table>
+                    <th>Primer Título</th>
+                    <th>Segundo Título</th>
+                    <tr>
+                        <td>Como </td>
+                        <td>estas</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>All right reserved Yiss 2025</p>
+    </footer>
+</body>
+</html>

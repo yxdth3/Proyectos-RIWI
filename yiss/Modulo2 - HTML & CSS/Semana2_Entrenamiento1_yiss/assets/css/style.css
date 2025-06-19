@@ -1,0 +1,91 @@
+*{
+    font-family: "Barlow Semi Condensed", "sans-serif";
+    list-style: none;
+}
+.font-design{
+    text-align: center;
+    color: maroon;
+}
+h6{
+    color: white;
+}
+.content a{
+    color: brown;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(245, 200, 145);
+    width: 95%;
+    border-radius: 20px ;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+}
+li.item-menu{
+    margin: 0px 40px 0px 0px;
+}
+
+.subtitle-projetcs{
+    text-align: center;
+    color: maroon;
+}
+nav ul li a {
+    display: flex;
+    padding: 10px;
+    color: brown;
+    justify-content: center;
+}
+.group-picture{
+    display: flex;
+    justify-content: center;
+}
+picture img {
+    border-radius: 10px;
+}
+section#projects-mention {
+    display: flex;
+}
+body main section figure picture.box-picture-examples{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 206, 155);
+    padding: 10px;
+    width: fit-content; /* fit content captura el tamaño que ocupa el componente y se acopla a éste. */
+    border-radius: 10px;
+}
+.box-table{
+    border: 5px solid  rgb(248, 214, 169);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table tr th {
+    background-color: peru;
+}
+
+table a {
+    color: brown;
+}
+.box-form{
+    text-align: center;
+    padding: 10px;
+    border: 5px solid rgb(248, 214, 169);
+    border-radius: 10px;
+    
+}
+.input-form{
+    width: 200px;
+    height: 25px;
+    margin: 3px;
+}
+#send{
+    color: brown;
+    background-color: navajowhite;
+    ;
+}
