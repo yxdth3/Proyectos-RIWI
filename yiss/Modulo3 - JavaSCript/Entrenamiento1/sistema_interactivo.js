@@ -10,8 +10,8 @@ function datosUser(){
 
     //Validación de datos y mensajes personalizados
     if (isNaN(ageUser)){  //isNan se usa para determinar si un valor no es numérico
-        console.error("ERROR, edad inválida. solo se aceptan números.");
-        alert("ERROR, edad inválida. solo se aceptan números.");
+        console.error("ERROR, edad inválida. solo se aceptan números."); //Muestra el error en consola
+        alert("ERROR, edad inválida. solo se aceptan números."); //Muestra el error al usuario
     } else if (ageUser < 18){
         alert(`Hola ${nameUser}!, aún eres menor de edad 🥲. Pero sigue aprendiendo y tómalo con calma ✨`);
     } else {

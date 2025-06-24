@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h2>Registro de usuario</h2>
+    <input type="text" id="name" placeholder="Username"> <br>
+    <input type="number" id="age" placeholder="Age"> <br>
+    <input type="email" id="email" placeholder="Email"> <br>
+    <button onclick="registerUsers()">Registrar</button> 
+    <button onclick="showUsers()">Mostrar usuarios</button>
+    <button onclick="clearUsers()">Borrar registros</button>
+
+
+    <h2>Eliminar usuarios</h2>
+    <p>Ingrese el nombre del usuario a eliminar</p>
+    <input type="text" id="name" placeholder="Username">
+    <button onclick="removeUsers()">Eiminar usuario</button>
+
+    <h3>Lista de usuarios: </h3>
+    <p id="exit"></p>
+</body>
+</html>

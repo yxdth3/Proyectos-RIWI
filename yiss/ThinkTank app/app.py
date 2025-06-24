@@ -42,13 +42,15 @@ def formato_hora_valido(hora):
 
 # Pedir fecha y hora válidas como strings
 def pedir_fecha_hora():
-    while True:
+    datos = True
+    while datos:
         fecha = input("Ingresa la fecha (YYYY-MM-DD): ")
         hora = input("Ingresa la hora (HH:MM en 24h): ")
         if formato_fecha_valido(fecha) and formato_hora_valido(hora):
             return fecha, hora
         else:
             print("❌ Formato inválido. Intenta de nuevo.")
+            datos = False
 
 # Verifica si ya hay una reserva en esa sala, fecha y hora
 def hay_solapamiento(sala, fecha, hora):
@@ -106,8 +108,8 @@ def exportar_csv():
     print("📁 Reservas exportadas a 'reservas.csv'")
 
 # Bucle principal
-
-while True:
+opcion = True
+while opcion:
     opcion = mostrar_menu()
     if opcion == "1":
         crear_reserva()
@@ -122,3 +124,4 @@ while True:
         break
     else:
         print("❌ Opción no válida.")
+        opcion = False
