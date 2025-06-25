@@ -4,6 +4,8 @@
         let age = parseInt(document.getElementById("age").value);
         let email = document.getElementById("email").value;
 
+        
+
         //crear objeto usuario
         let user = {
             name : name,
