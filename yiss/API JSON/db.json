@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "8c1c",
+      "nombre": "usuario Post yiss",
+      "correo": "usuario2@email.com",
+      "contraseña": "1234",
+      "rol": "usuario"
+    },
+    {
+      "id": "3c5c",
+      "nombre": "usuario Post isa",
+      "correo": "usuario2@email.com",
+      "contraseña": "12yuju4",
+      "rol": "usuario"
+    },
+    {
+      "id": "7c5f",
+      "nombre": "usuario actualizado",
+      "correo": "usuario2@email.com",
+      "contraseña": "1234",
+      "rol": "usuario"
+    }
+  ]
+}
